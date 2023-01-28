@@ -1,0 +1,67 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.resume {
+    border: 1px solid salmon;
+    padding: 5px;
+    background-color:bisque;
+}
+.resume > h3 {
+    background-color: chocolate; margin: 0px; padding: 5px; color:bisque; text-align: right;
+}
+
+.poesie, .prose, .theatre {
+    font-family: 'Courier New', Courier, monospace; 
+    border:1px dashed burlywood;
+    background-color:whitesmoke;
+    padding: 10px;
+    margin: auto;
+    width: 95%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.poesie > p {
+    text-align: center;
+    
+}
+.prose > p {
+    text-indent: 30px;
+    text-align: justify;
+}
+.theatre > p {
+    margin: 0;
+    padding-top: 8px;
+    color:brown;
+    
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.didas {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.jeu {
+    padding-left: 5px;
+    color: brown;
+}
+.emphase {
+    color: red;
+}
+.exemple {
+    color: blue;
+}
+.reponse {
+    color:green;
+    display:none;
+}
+.question {
+    color: purple;
+    font-weight: bold;
+    cursor: help;
+}
+.question:hover > .reponse {
+    display:block;
+    font-weight:0.8rem;
+}
