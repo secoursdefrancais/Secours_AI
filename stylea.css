@@ -1,0 +1,13 @@
+ol, ul {
+    list-style-type: none;
+  }
+  li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+    background-color: #4C50AF;
+    color: white;
+    text-decoration: none;
+  }
