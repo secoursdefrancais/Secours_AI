@@ -1,34 +1,50 @@
 /* Styles pour le conteneur du menu */
+* {
+    box-sizing: border-box;
+}
 .navig {
     display: flex;
     justify-content: center; /* Centrer les éléments horizontalement */
     align-items: center; /* Centrer les éléments verticalement */
-    background-color: chocolate;
+    /* background-color: chocolate;*/
     color: #fff;
     list-style-type: none;/* enlever les  */
-    padding: 0%;
+    padding: 0;
+    margin: 0;
   }
-  
+  a {
+    color:bisque;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    background-color: chocolate;
+    line-height: 1.8;
+    border-bottom: 1px solid brown;
+  }
   /* Styles pour les boutons du menu */
   .navig > li a {
     display: inline-block;
     height: 100%; /* Hauteur des boutons */
-    padding: 1em;
-    /* line-height: 30px; Centrer le texte verticalement */
+    font-weight: bold;
+    padding: 1rem;
+    margin: 2px;
     text-align: center;
-    text-decoration: none;
-    color: bisque;
-    font-weight: bold;   
   }
   
   /* Style pour le survol des boutons */
   li a:hover {
-    background-color: #555;
+    background-color:rgb(105, 67, 53);
     text-decoration: none;
+    border-bottom: 1px solid bisque;
   }
 
-  body {
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box {
+    background-color:coral;
+    width: 45%;
+    margin: 4px;
+    display: inline-block;
 }
 .resume {
     border: 1px solid salmon;
@@ -38,7 +54,6 @@
 .resume > h3 {
     background-color: chocolate; margin: 0px; padding: 5px; color:bisque; text-align: right;
 }
-
 .poesie, .prose, .theatre {
     font-family: 'Courier New', Courier, monospace; 
     border:1px dashed burlywood;
@@ -93,4 +108,9 @@
 .question:hover > .reponse {
     display:block;
     font-weight:0.8rem;
+}
+.titre {
+    color:blue;
+    font-weight: normal;
+    font-variant: small-caps;
 }
